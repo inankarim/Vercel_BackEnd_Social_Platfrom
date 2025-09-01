@@ -1,2 +1,39 @@
+Got it — here’s a solid `.gitignore` for a Node/React (Vite) project that ignores `node_modules` and your env files:
+
+```gitignore
+# Dependencies
+node_modules/
+
+# Builds / caches
+dist/
+build/
+.vite/
+.cache/
+
+# Env files
 .env
-.node_modules
+.env.*
+!.env.example
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+pnpm-debug.log*
+
+# Testing
+coverage/
+
+# OS / Editors
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/*
+!.vscode/extensions.json
+
+# Temp / local uploads
+tmp/
+temp/
+uploads/
+```
